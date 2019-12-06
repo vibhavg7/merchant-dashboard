@@ -14,7 +14,7 @@ const routes: Routes = [
       import('./orders/orders.module').then(m=>m.OrdersModule)
   },
   {
-    path:'catelog',
+    path:'catalog',
     canActivate:[AuthGuard],
     loadChildren: ()=>
       import('./catelog/catelog.module').then(m=>m.CatelogModule)

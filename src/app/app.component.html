@@ -9,7 +9,7 @@
       <a *ngIf="!isLoggedIn" [routerLink]="['/login']" class="list-group-item list-group-item-action bg-light">Log In</a>
       <a [routerLink]="['/user']" class="list-group-item list-group-item-action bg-light">Profile</a>
       <a [routerLink]="['/orders/pastorders']" class="list-group-item list-group-item-action bg-light">Orders</a>
-      <a [routerLink]="['/catelog']" class="list-group-item list-group-item-action bg-light">Product Catelog</a>
+      <a [routerLink]="['/catalog']" class="list-group-item list-group-item-action bg-light">Product Catalog</a>
       <a class="nav-link" style="cursor:pointer;" *ngIf="!!isLoggedIn" class="list-group-item list-group-item-action bg-light"
         (click)="logOut()">Log Out</a>
     </div>

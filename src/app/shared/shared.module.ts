@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PaginationComponent } from './pagination/pagination.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
-import { ImageUploadComponent } from './image-upload/image-upload.component';
+// import { ImageUploadComponent } from './image-upload/image-upload.component';
 
 
 

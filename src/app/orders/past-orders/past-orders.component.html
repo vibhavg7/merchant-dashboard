@@ -1,6 +1,6 @@
 <div *ngFor="let storeOrder of storeOrders">
     <br>
-    <div class="card bg-light text-dark">
+    <div [routerLink]="['/orders/',storeOrder?.order_id]" style="cursor:pointer;" class="card bg-light text-dark">
         <div class="card-body">
             <p class="card-title">Order Id : {{storeOrder?.order_id}}</p>
             <p class="card-text">Store Name : {{storeOrder?.store_name}}</p>
